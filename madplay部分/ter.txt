@@ -1,0 +1,31 @@
+播放媒体文件：
+
+mplay <filename>
+
+指定音频输出设备：
+
+mplay -ao <device> <filename>
+
+指定视频输出设备：
+
+mplay -vo <device> <filename>
+
+调整音量：
+
+mplay -volume <value> <filename>
+
+调整播放速度：
+mplayer -speed 8 "school.mp4"
+mplayer -speed 0.25 "school.mp4"
+
+循环播放：
+
+mplay -loop <value> <filename>
+
+截取视频帧：
+
+mplay -vf screenshot <filename>
+
+显示帮助信息：
+
+mplay -h
